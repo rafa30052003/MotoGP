@@ -11,7 +11,7 @@ public class Race {
     public static Random random = new Random();
 
 
-    private static void iniciarCarrera() throws InterruptedException {
+    public static void iniciarCarrera() throws InterruptedException {
         Thread[] motociclistas = new Thread[NUM_MOTOCICLISTAS];
 
         posicion = new AtomicInteger[NUM_MOTOCICLISTAS];
