@@ -1,4 +1,4 @@
-package com.example.motogp.controller;
+package com.example.motogp;
 
 
 import com.example.motogp.Race;
@@ -29,7 +29,7 @@ public class RaceController {
             e.printStackTrace();
         }
     }
-
+    @FXML
     private void mostrarResultados() {
         resultadosVBox.getChildren().clear();
         for (int i = 0; i < Race.NUM_MOTOCICLISTAS; i++) {

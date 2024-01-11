@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.motogp.RaceController">
+   <VBox fx:id="resultadosVBox" spacing="10">
+      <!-- Aquí se mostrarán los resultados -->
+   </VBox>
+   <Button fx:id="iniciarCarreraButton" text="Iniciar Carrera" onAction="#iniciarCarrera"/>
+</HBox>
+

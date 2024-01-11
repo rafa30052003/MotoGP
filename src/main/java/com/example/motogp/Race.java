@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Race {
-    public static final int NUM_MOTOCICLISTAS = 10;
+    public static final int NUM_MOTOCICLISTAS = 5;
     public static final int DISTANCIA_CARRERA = 100;
     public static AtomicInteger[] posicion;
     public static Random random = new Random();
